@@ -1,0 +1,92 @@
+body {
+    background-color: #f4f3ee;
+}
+h1 {
+    font-family: monospace;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #8a817c;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 42%;
+    margin-right: 42%;
+    color: #f4f3ee;
+    border: 2px solid #463f3a;
+    box-shadow: -2px 2px 4px 1px #000;
+    background: linear-gradient(45deg, #655f5b 0%, #867d79 50%, #afa39e 100%);
+
+    /* position: fixed; */
+    
+}
+/* BARRE DE NAVIGATION */
+#wrap {
+    z-index:99;
+    position: relative;
+    background-color: #8a817c;  
+    
+}
+.navbar {
+    height:40px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /* position: fixed; */
+}
+
+.navbar li {
+    
+    width: 185px;
+    float:left;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    background-color: #8a817c;
+}
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #f4f3ee;
+    border: 1px solid #463f3a;
+    font-family: monospace;
+    font-size: 150%;
+}
+.navbar li:hover, a:hover {
+    background-color: #463f3a;
+    text-decoration: underline #f4f3ee;
+}
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.navbar li:hover ul {
+    display: block;
+}
+.navbar li ul li {
+    background-color: #8a817c;
+}
+#searchbar {
+    background-color: #f4f3ee;
+    padding: 0px;
+}
+
+
+.a1 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    background-color: #8a817c;
+    border: 2px solid #463f3a;
+    color: #f4f3ee;
+    font-family: monospace;
+    font-size: 150%;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+ 
+}
