@@ -23,20 +23,18 @@ h1 {
 #wrap {
     z-index:99;
     position: relative;
-    background-color: #8a817c;  
-    
+    background-color: #8a817c;
 }
 .navbar {
     height:40px;
     padding: 0;
     margin: 0;
-    position: relative;
-    /* position: fixed; */
+    position: relative;  
 }
 
 .navbar li {
     
-    width: 185px;
+    width: 20%;
     float:left;
     list-style: none;
     text-align: center;
@@ -55,22 +53,33 @@ h1 {
 .navbar li:hover, a:hover {
     background-color: #463f3a;
     text-decoration: underline #f4f3ee;
-}
+    transform: scale(1);
+    transform-origin: top;
+    transition: all 300ms ease-in-out;
+}    
 .navbar li ul {
     display: none;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 .navbar li:hover ul {
     display: block;
+    transform: scale(1);
+    position: absolute;
 }
 .navbar li ul li {
+    display: block;
     background-color: #8a817c;
+    width: 100%;
+    transform: scale(1);
+    transform-origin: top;
+    transition: all 300ms ease-in-out;  
 }
 #searchbar {
     background-color: #f4f3ee;
     padding: 0px;
+    width: 100%;
 }
 
 
@@ -89,4 +98,49 @@ h2 {
     margin-top: 0px;
     margin-bottom: 10px;
  
+}
+.cont1 {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "it1 it1 it1 it2 it2 it2"
+    "it3 it3 it3 it4 it4 it4"
+    "it5 it5 it6 it6 it7 it7";
+    /* justify-content: ; */
+    /* align-content: center; */
+}
+
+#it1{
+    grid-area: it1; 
+}
+#it2 {
+    grid-area: it2;
+}
+#it3{
+    grid-area: it3;
+}
+#it4 {
+    grid-area: it4;
+}
+#it5 {
+    grid-area: it5;
+}
+#it6 {
+    grid-area: it6;
+}
+#it7 {
+    grid-area: it7;
+}
+.it {
+    background-color: #8a817c ;
+    margin-top: 50px;
+    font-family: monospace;
+    color: #f4f3ee;
+    font-size: 200%;
+    height: auto;
+    text-align: center;
+    padding-top: 50%;
 }
