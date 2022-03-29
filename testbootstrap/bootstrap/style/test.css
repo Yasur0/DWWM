@@ -1,0 +1,10 @@
+.card {
+    width: 18rem;
+}
+.container {
+    background-color: coral;
+    border: 1px solid black;
+}
+.row .col-8{
+    background-color: aqua;
+}
