@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style/myuka.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font lobster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cont mt-4 ml-4 mr-4 pb-2 myuka">
+            <div class="row">
+                <div class="col-md-12 tt">
+                    <h1>MY YUKA</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Obtenez les informations sur les produits alimentaires</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <nav>
+        <div class="cont mt-4 ml-4 mr-4 pt-3 pb-3 ">
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" class="recherche" placeholder="Rechercher">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-success mt-3">Saisir</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="parent-container m-4">
+            <div class="cont1 mr-4">
+                <div class="row ">
+                    <div class="col-md">
+                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 img-fluid" src="images/kinder2.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 img-fluid" src="images/kinder3.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 img-fluid" src="images/kinder1.webp" alt="Third slide">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cont1">
+                <div class="row">
+                    <div class="col-md">
+                        <img class="d-block w-100 img-fluid" src="images/ingredient.jpg" alt="Ingrédients">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont m-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="pt-3">Allergènes</p>
+                </div>
+            </div>
+        </div>
+        <div class="parent-container m-4">
+            <div class="cont1 mr-4">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="images/nova.PNG" alt="nova" class="d-block w-100 img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="cont1 mr-4">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="images/nutriscore.PNG" alt="nutriscore" class="d-block w-100 img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="cont1">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="images/huile.PNG" alt="huile de palme" class="d-block w-100 img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="cont m-4 pt-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cmodal">
+                        Contactez-nous!
+                    </button>
+                    <div class="modal fade" id="cmodal" tabindex="-1" role="dialog" aria-labelledby="cmodallabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="cmodallabel"></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="prenom">Prénom</label>
+                                            <input type="text" class="form-control" id="prenom" placeholder="Entrer Prénom">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nom">Nom</label>
+                                            <input type="text" class="form-control" id="nom" placeholder="Entrer Nom">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Entrer Email">
+                                        </div>
+                                       <div class="form-group">
+                                           <label for="message">Message</label>
+                                           <textarea class="form-control" id="message" rows="4" placeholder="Entrer votre message :)"></textarea>
+                                       </div> 
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                                    <button class="btn btn-primary" type="button">Save Changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
