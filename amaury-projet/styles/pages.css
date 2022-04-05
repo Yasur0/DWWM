@@ -1,12 +1,12 @@
 /* TATOOINE */
 
-.navbar, .navbart {
+.navbar, #navbart {
     background-color: #111 !important;
     border-bottom: 2px solid #f80;
     box-shadow: 0px 8px 18px 1px #F80;
 }
-
-.navbar-brand, .brandt {
+s
+.navbar-brand, #brandt {
     color: #f80 !important;
 }
 
@@ -52,6 +52,8 @@
     border-bottom: 4px double #f80;
 }
 
+/* BOUTONS */
+
 .btn-secondary, .btnt {
     background-color: #111;
     border: 4px double #f80;
@@ -67,4 +69,220 @@
     color: #000 !important;
     box-shadow: 0px 0px 10px 1px #f80 !important;
     text-align: center;
+}
+
+/* TABLEAU */
+
+.tablet, td {
+    background-color: #111;
+    border: 2px solid #f80;
+    width: 80%;
+    color: #fff;
+}
+
+.tablet, th {
+    background-color: #f80;
+    color: #111;
+    border: 2px solid #111;
+}
+
+.tablet {
+    border:2px solid #111;
+    box-shadow: 0px 0px 10px 5px #f80
+}
+
+
+
+
+
+/* MANDALORE */
+
+.navbar, #navbarm {
+    background-color: #111 !important;
+    border-bottom: 2px solid #f80;
+    box-shadow: 0px 8px 18px 1px #F80;
+}
+
+.navbar-brand, #brandm {
+    color: #7a10f3 !important;
+}
+
+.img-containerm {
+    background-image: url(../images/mandalore.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding-top: 10%;
+    padding-bottom: 23%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+}
+
+.nomm {
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 2% 0;
+}
+
+.h2m {
+    color: #7a10f3;
+}
+
+.main-containerm {
+    background-color: #111;
+    padding: 5% 5%;
+    width: auto;
+    border-top: 2px solid #f80;
+    border-bottom: 2px solid #f80;
+    box-shadow: inset 0px 0px 18px 1px #f80;
+}
+
+.presentationm {
+    border-bottom: 4px double #f80;
+}
+
+.especes-m {
+    border-bottom: 4px double #f80;
+}
+
+.fincollapsem {
+    border-bottom: 4px double #f80;
+}
+
+/* BOUTONS */
+
+.btn-secondary, .btnm {
+    background-color: #111;
+    border: 4px double #f80;
+    font-family: "Righteous";
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btnm:hover, .btnm:focus, .btnm:active {
+    transform: scale(1.03);
+    transform-origin: center;
+    transition: all 200ms ease-in ;
+    background-color: #f80 !important;
+    border-color: #111 !important;
+    color: #000 !important;
+    box-shadow: 0px 0px 10px 1px #f80 !important;
+    text-align: center;
+}
+
+/* TABLEAU */
+
+.tablem, td {
+    background-color: #111;
+    border: 2px solid #f80;
+    width: 80%;
+    color: #fff;
+}
+
+.tablem, th {
+    background-color: #f80;
+    color: #111;
+    border: 2px solid #111;
+}
+
+.tablem {
+    border:2px solid #111;
+    box-shadow: 0px 0px 10px 5px #f80
+}
+
+
+/* DATHOMIR */
+
+.navbar, #navbard {
+    background-color: #111 !important;
+    border-bottom: 2px solid #ff5944;
+    box-shadow: 0px 8px 18px 1px #ff5944;
+}
+
+.navbar-brand, #brandd {
+    color: #ff4d35 !important;
+}
+
+.img-containerd {
+    background-image: url(../images/dathomirbg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+}
+
+.nomd {
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 2% 0;
+}
+
+.h2d {
+    color: #ff5944;
+}
+
+.main-containerd {
+    background-color: #111;
+    padding: 5% 5%;
+    width: auto;
+    border-top: 2px solid #f80;
+    border-bottom: 2px solid #f80;
+    box-shadow: inset 0px 0px 18px 1px #f80;
+}
+
+.presentationd {
+    border-bottom: 4px double #f80;
+}
+
+.especes-d {
+    border-bottom: 4px double #f80;
+}
+
+.fincollapsed {
+    border-bottom: 4px double #f80;
+}
+
+/* BOUTONS */
+
+.btn-secondary, .btnd {
+    background-color: #111;
+    border: 4px double #f80;
+    font-family: "Righteous";
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btnd:hover, .btnd:focus, .btnd:active {
+    transform: scale(1.03);
+    transform-origin: center;
+    transition: all 200ms ease-in ;
+    background-color: #f80 !important;
+    border-color: #111 !important;
+    color: #000 !important;
+    box-shadow: 0px 0px 10px 1px #f80 !important;
+    text-align: center;
+}
+
+/* TABLEAU */
+
+.tabled, td {
+    background-color: #111;
+    border: 2px solid #f80;
+    width: 80%;
+    color: #fff;
+}
+
+.tabled, th {
+    background-color: #f80;
+    color: #111;
+    border: 2px solid #111;
+}
+
+.tabled {
+    border:2px solid #111;
+    box-shadow: 0px 0px 10px 5px #f80
+}
+@media all and (max-width:662px) {
+    .img-containerd {
+        padding-bottom: 20%;
+    }
 }
