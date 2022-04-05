@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/all.css">
+
+    <title>Star Wars - Home</title>
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="page1.html" class="nav-link active">Tatooine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="page2.html" class="nav-link active">Mandalore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="page3.html" class="nav-link active">Dathomir</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="block"></div>
+    <main>
+        <div class="img-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img class="d-block img-fluid" src="../images/logostarwars.jpg" alt="Star Wars">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="presentation pb-2">
+                <div class="row">
+                    <div class="col">
+                        <h2>Présentation</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint perspiciatis ad tempore
+                            incidunt voluptates. Fugiat odit earum quod eligendi sunt ipsam nostrum architecto magnam ea
+                            eos provident possimus ipsa iste iure illum exercitationem libero laudantium, deleniti harum
+                            ullam aliquam totam molestiae. Eligendi officia debitis nemo sunt consequuntur neque libero
+                            incidunt tenetur saepe recusandae ab qui placeat quaerat animi aut cupiditate facilis, omnis
+                            voluptatum, odit quia amet cum velit ad. Alias dolorum earum enim consequuntur iure nostrum
+                            harum debitis cupiditate itaque tenetur error accusantium non incidunt ipsa, fugit nam
+                            praesentium eveniet perspiciatis amet reiciendis sunt saepe, architecto exercitationem ex.
+                            Harum, dolores. Incidunt quas, nemo sequi rem ducimus, illum amet quasi dicta veritatis quam
+                            laudantium ex debitis libero voluptas. Nesciunt reiciendis, expedita harum assumenda
+                            doloremque similique cupiditate quo officia sint, natus eaque ab! Iste, natus quia beatae
+                            doloribus dolores tenetur quibusdam enim adipisci praesentium necessitatibus fugit rerum
+                            doloremque sit porro deserunt quos!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="planetes mt-5 pb-2">
+                <div class="row">
+                    <div class="col">
+                        <h2>Les Planètes</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Dans l'univers étendu de Star Wars, il existe des centaines de planètes, certaines sont
+                            plus
+                            importantes que d'autres. Nous allons vous en présenter quelques-unes et résumer leur
+                            histoire.</p>
+                        <button class="btn btn-secondary mb-3 " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseplanete" aria-expanded="false" aria-controls="collapseplanete">
+                            Cliquez ici
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tatooine mt-5 collapse" id="collapseplanete">
+                <div class="row">
+                    <div class="col card card-header">
+                        <h2>Tatooine</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col card card-body">
+                        <p>Tatooine est une planète désertique, située dans la bordure extérieure, cette planète orbite
+                            autour des étoiles Tatoo I et Tatou II. C'est la planète d'origine de la famille Skywalker.
+                            Malgré la chaleur d'origine...</p>
+                        <a href="page1.html" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mandalore mt-5 collapse" id="collapseplanete">
+                <div class="row">
+                    <div class="col card card-header">
+                        <h2>Mandalore</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col card card-body">
+                        <p>Mandalore était une planète de la Bordure Extérieure. Elle était le monde d'origine des
+                            Mandaloriens, un peuple guerrier et téméraire qui affronta les Jedi et mit à sac leur temple
+                            pendant la chute de...</p>
+                        <a href="page2.html" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dathomir mt-5 collapse" id="collapseplanete">
+                <div class="row">
+                    <div class="col card card-header">
+                        <h2>Dathomir</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col card card-body">
+                        <p>Dathomir était une planète située dans la Bordure Extérieure, dans le secteur Quelli. C'était
+                            une planète assez hostile, notamment car il s'agissait du monde d'origine des rancors</p>
+                        <a href="page3.html" class="btn btn-secondary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
