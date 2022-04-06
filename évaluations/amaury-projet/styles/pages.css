@@ -1,0 +1,313 @@
+/* TATOOINE */
+
+.navbar, #navbart {
+    background-color: #111 !important;
+    border-bottom: 2px solid #f80;
+    box-shadow: 0px 8px 18px 1px #F80;
+}
+s
+.navbar-brand, #brandt {
+    color: #f80 !important;
+}
+
+.img-containert {
+    background-image: url(../images/tatooinebg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding-top: 10%;
+    padding-bottom: 35%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+}
+
+.nomt {
+    background-color: rgba(17, 17, 17, 0.61);
+    padding: 2% 0;
+}
+
+.h2t, .h3t {
+    color: #f80;
+}
+
+.main-containert {
+    background-color: #111;
+    padding: 5% 5%;
+    width: auto;
+    border-top: 2px solid #f80;
+    border-bottom: 2px solid #f80;
+    box-shadow: inset 0px 0px 18px 1px #f80;
+}
+
+.presentationt {
+    border-bottom: 4px double #f80;
+}
+
+.especes-t {
+    border-bottom: 4px double #f80;
+}
+
+.fincollapset {
+    border-bottom: 4px double #f80;
+}
+
+/* CARDS */
+
+#cardt {
+    border: 2px solid #f80;
+    box-shadow: 0px 0px 18px 1px #f80;
+}
+
+/* BOUTONS */
+
+.btn-secondary, #btnt {
+    background-color: #111;
+    border: 4px double #f80;
+    font-family: "Righteous";
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, #btnt:hover, #btnt:focus, #btnt:active {
+    transform: scale(1.03);
+    transform-origin: center;
+    transition: all 200ms ease-in ;
+    background-color: #f80 !important;
+    border-color: #111 !important;
+    color: #000 !important;
+    box-shadow: 0px 0px 10px 1px #f80 !important;
+    text-align: center;
+}
+
+/* TABLEAU */
+
+#tablet, #tdt {
+    background-color: #111;
+    border: 2px solid #f80;
+    width: 80%;
+    color: #fff;
+}
+
+#tablet, #tht {
+    background-color: #f80;
+    color: #111;
+    border: 2px solid #111;
+}
+
+#tablet{
+    border:2px solid #111;
+    box-shadow: 0px 0px 10px 5px #f80;
+}
+
+
+
+
+
+/* MANDALORE */
+
+.navbar, #navbarm {
+    background-color: #111 !important;
+    border-bottom: 2px solid #7913fd;
+    box-shadow: 0px 8px 18px 1px #6200ff;
+}
+
+.navbar-brand, #brandm {
+    color: #7913fd !important;
+}
+
+.img-containerm {
+    background-image: url(../images/mandalorebg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding-top: 5%;
+    padding-bottom: 35%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+}
+
+.nomm {
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 1% 0;
+}
+
+.h2m, .h3m {
+    color: #7913fd;
+}
+
+
+
+.main-containerm {
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    padding: 5% 5%;
+    width: auto;
+    border-top: 2px solid #7913fd;
+    border-bottom: 2px solid #7913fd;
+    box-shadow: inset 0px 0px 18px 1px #6200ff;
+}
+
+.presentationm {
+    border-bottom: 4px double #7913fd;
+}
+
+.especes-m {
+    border-bottom: 4px double #7913fd;
+}
+
+.fincollapsem {
+    border-bottom: 4px double #7913fd;
+}
+
+/* CARD */
+
+
+.cardp {
+    height: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#cardm {
+    border: 2px solid #7913fd;
+    box-shadow: 0px 0px 18px 1px #6200ff;
+}
+
+/* BOUTONS */
+
+.btn-secondary, #btnm {
+    background-color: #111;
+    border: 4px double #7913fd;
+    font-family: "Righteous";
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, #btnm:hover, #btnm:focus, #btnm:active {
+    transform: scale(1.03);
+    transform-origin: center;
+    transition: all 200ms ease-in ;
+    background-color: #7913fd !important;
+    border-color: #111 !important;
+    color: #000 !important;
+    box-shadow: 0px 0px 10px 1px #6200ff !important;
+    text-align: center;
+}
+
+/* TABLEAU */
+
+#tablem, #tdm {
+    background-color: #111;
+    border: 2px solid #7913fd;
+    width: 80%;
+    color: #fff;
+}
+
+#tablem, #thm {
+    background-color: #7913fd;
+    color: #111;
+    border: 2px solid #111;
+}
+
+#tablem {
+    border:2px solid #111;
+    box-shadow: 0px 0px 10px 5px #6200ff;
+}
+
+
+/* DATHOMIR */
+
+.navbar, #navbard {
+    background-color: #111 !important;
+    border-bottom: 2px solid #ff5944;
+    box-shadow: 0px 8px 18px 1px #ff5944;
+}
+
+.navbar-brand, #brandd {
+    color: #ff4d35 !important;
+}
+
+.img-containerd {
+    background-image: url(../images/dathomirbg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+}
+
+.nomd {
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 2% 0;
+}
+
+.h2d {
+    color: #ff5944;
+}
+
+.main-containerd {
+    background-color: #111;
+    padding: 5% 5%;
+    width: auto;
+    border-top: 2px solid #ff5944;
+    border-bottom: 2px solid #ff5944;
+    box-shadow: inset 0px 0px 18px 1px #ff5944;
+}
+
+.presentationd {
+    border-bottom: 4px double #ff5944;
+}
+
+.especes-d {
+    border-bottom: 4px double #ff5944;
+}
+
+.fincollapsed {
+    border-bottom: 4px double #ff5944;
+}
+
+/* BOUTONS */
+
+.btn-secondary, #btnd {
+    background-color: #111;
+    border: 4px double #ff5944;
+    font-family: "Righteous";
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, #btnd:hover, #btnd:focus, #btnd:active {
+    transform: scale(1.03);
+    transform-origin: center;
+    transition: all 200ms ease-in ;
+    background-color: #ff5944 !important;
+    border-color: #111 !important;
+    color: #000 !important;
+    box-shadow: 0px 0px 10px 1px #ff5944 !important;
+    text-align: center;
+}
+
+/* TABLEAU */
+
+#tabled, #tdd {
+    background-color: #111;
+    border: 2px solid #ff5944;
+    width: 80%;
+    color: #fff;
+}
+
+#tabled, #thd {
+    background-color: #ff5944;
+    color: #111;
+    border: 2px solid #111;
+}
+
+#tabled {
+    border:2px solid #111;
+    box-shadow: 0px 0px 10px 5px #ff5944
+}
+@media all and (max-width:662px) {
+    .img-containerd {
+        padding-bottom: 20%;
+    }
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #c6c0a0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: #7d775c;
+    font-size: 150%;
+    font-style: oblique;
+    font-weight: 1000;
+}
+
+h3 {
+    color: #7d775c;
+    font-size: 130%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+li {
+    line-height: 24px;
+}
+
+#j {
+    color: #f00;
+    text-decoration: underline;
+    font-size: 120%;
+}
+
+strong {
+    color: #0f0;
+}
+#container {
+    border: 1px solid #000;
+    font: 75% Georgia;
+    line-height: 1.7;
+    color: #555753;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    -moz-border-radius :10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=135,
+    Strength=12);
+    font-weight: normal;
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: "Lobster";
+}
+
+p {
+    color: #fff;
+    font-size: 130%;
+}
+
+
+h1 {
+    font-family: "Permanent Marker";
+}
+
+.myuka {
+    background-color: #8778a3;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.cont {
+    text-align: center;
+    color: #fff;
+    ;
+    font-family: "Lobster";
+    width: auto;
+    height: auto;
+}
+
+.cont2 {
+    text-align: center;
+    color: #fff;
+    ;
+    font-family: "Lobster";
+    width: auto;
+    height: auto;
+    background-color: #3c3547c9;
+    box-shadow: 1px 1px 20px 5px #000;
+    border-radius: 5px;
+    /* background-color: #fff; */
+}
+
+.btn-success {
+    width: 40%;
+    background-color: #f3e7a5 !important;
+    border-color: #4b4458 !important;
+    color: #000 !important;
+}
+
+.btn-success:hover {
+    background-color: #e8d467 !important;
+}
+
+.btn-success:focus, .btn-success.focus {
+    box-shadow: 0 0 20px 10px #9e92b4 !important;
+}
+
+
+.recherche {
+    text-align: center;
+    width: 80%;
+
+}
+
+.parent-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: auto;
+    background-color: #4b4458;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px #e8d467;
+
+    /* margin: 10%; */
+}
+
+.parent-container2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: auto;
+    background-color: #2f2a3883;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 7px 7px #d8c8f5;
+    border-radius: 20px;
+}
+
+.cont1 {
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+    font-family: "Lobster";
+    width: auto;
+    height: auto;
+    margin: 5%;
+    padding: 2%;
+    border: 1px solid #fff;
+    box-shadow: 0.5px 0.5px 10px 1px #e8d467;
+    border-radius: 10px;
+    /* margin-right: 30px; */
+}
+
+
+.pad1 {
+    text-align: center;
+    padding: 30%;
+    font-size: smaller;
+}
+
+.parent-container1 {
+    background-color: #9e92b4b9;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 100%;
+    box-shadow: 1px 20px 30px 10px #3a351a;
+}
+
+.modal {
+    color: #000;
+}
+
+
+.all {
+    margin: 5%;
+}
+
+.card-text {
+    color: #000;
+}
+
+.contf {
+    background-color: #f3e7a5e5;
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid #4b4458;
+    box-shadow: 1px 1px 10px 1px #000;
+    padding: 0;
+
+
+}
+
+.foot {
+    color: #3c3547;
+    font-family: "Lobster";
+    font-size: 150%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.foot:hover, .contf:hover {
+    color: #f3e7a5e5;
+    background-color: #3c3547bb;
+    border-color: #f3e7a5;
+    transform: scale(1);
+    transform-origin: center;
+    transition: all 250ms ease-in;
+
+}
