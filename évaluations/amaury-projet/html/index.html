@@ -28,6 +28,9 @@
                     aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div>
+                    <audio src="../musiques/anakin.mp3" controls autoplay="true"></audio>
+                </div>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -109,8 +112,7 @@
                 <div class="row">
                     <div class="col card card-body">
                         <p>Tatooine est une planète désertique, située dans la bordure extérieure, cette planète orbite
-                            autour des étoiles Tatoo I et Tatoo II. C'est la planète d'origine de la famille Skywalker.
-                            Malgré la chaleur d'origine...</p>
+                            autour des étoiles Tatoo I et Tatoo II. C'est la planète d'origine de la famille Skywalker.</p>
                         <a href="page1.html" class="btn btn-secondary">En savoir plus</a>
                     </div>
                 </div>
@@ -159,7 +161,8 @@
             <div class="sources">
                 <div class="row">
                     <div class="col">
-                        <button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#sourcemodal">
+                        <button class="btn btn-secondary" type="button" data-bs-toggle="modal"
+                            data-bs-target="#sourcemodal">
                             Sources
                         </button>
                     </div>
@@ -168,31 +171,34 @@
         </div>
     </footer>
 
-<!-- MODAL SOURCE -->
-<div class="modal fade" id="sourcemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sourcemodallabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="header">
-                <h3 class="modal-title" id="sourcemodallabel">Sources</h3>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col">
-                        <a href="https://starwars.fandom.com/wiki/Main_Page" class="btn btn-secondary" target="_blank">Wookieepedia</a>
+    <!-- MODAL SOURCE -->
+    <div class="modal fade" id="sourcemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="sourcemodallabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="header">
+                    <h3 class="modal-title" id="sourcemodallabel">Sources</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://starwars.fandom.com/wiki/Main_Page" class="btn btn-secondary"
+                                target="_blank">Wookieepedia</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-4">
+                            <a href="https://starwars.fandom.com/fr/wiki/Accueil" class="btn btn-secondary"
+                                target="_blank">Star Wars Wiki FR</a>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col mt-4">
-                        <a href="https://starwars.fandom.com/fr/wiki/Accueil" class="btn btn-secondary" target="_blank">Star Wars Wiki FR</a>
-                    </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Fermer</button>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Fermer</button>
             </div>
         </div>
     </div>
-</div>
 
 
 

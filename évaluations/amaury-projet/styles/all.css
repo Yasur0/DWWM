@@ -97,3 +97,20 @@ h1, h2, h3 {
 .modal-footer {
     border-top: 4px double #f00; 
 }
+
+ /* AUDIO */
+
+audio {
+    width: 400px;
+    border: 3px solid #f00;
+    box-shadow: 0px 0px 15px 1px #FF0000;
+    border-radius: 40px;
+
+}
+
+@media all and (max-width: 600px) {
+    audio {
+        width: 200px;
+        height: 25px;
+    }
+}

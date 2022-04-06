@@ -118,6 +118,14 @@ s
     border-top: 4px double #f80; 
 }
 
+/* AUDIO */
+
+audio, #audiot {
+    border: 3px solid #f80;
+    box-shadow: 0px 0px 15px 1px #f80;
+
+}
+
 
 
 
@@ -182,15 +190,10 @@ s
 /* CARD */
 
 
-.cardp {
-    height: auto;
-    width: 50%;
-    text-align: center;
-}
 
 #cardm {
-    border: 2px solid #7913fd;
-    box-shadow: 0px 0px 18px 1px #6200ff;
+    border: 2px solid #7913fd ;
+    box-shadow: 0px 0px 18px 1px #6200ff ;
 }
 
 /* BOUTONS */
@@ -250,6 +253,14 @@ s
 
 .modal-footer, #mfm {
     border-top: 4px double #7913fd; 
+}
+
+/* AUDIO */
+
+audio, #audiom {
+    border: 3px solid #7913fd;
+    box-shadow: 0px 0px 15px 1px #6200ff;
+
 }
 
 
@@ -377,4 +388,12 @@ s
 
 .modal-footer, #mfd {
     border-top: 4px double #ff5944; 
+}
+
+/* AUDIO */
+
+audio, #audiod {
+    border: 3px solid #ff5944;
+    box-shadow: 0px 0px 15px 1px #ff5944;
+
 }
