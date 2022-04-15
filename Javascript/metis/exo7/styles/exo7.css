@@ -1,0 +1,11 @@
+body {
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid palevioletred;
+    background: palegreen;
+    padding: 20px;
+    margin: 50px;
+}

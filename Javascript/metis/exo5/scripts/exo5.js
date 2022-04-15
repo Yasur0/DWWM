@@ -1,17 +1,13 @@
-let caractere;
-let ligne;
+let caract = prompt(
+  "Entrez un nombre ou un caractère que vous voulez afficher"
+);
+let rows = parseFloat(
+  prompt("Entrez le nombre de lignes que vous voulez afficher")
+);
 
-caractere = prompt("Entrez un nombre ou un caractère à afficher");
-
-console.log(caractere);
-console.log(typeof caractere);
-
-ligne = prompt("Entrez le nombre de lignes à afficher");
-
-console.log(ligne);
-ligne = parseFloat(ligne);
-console.log(typeof ligne);
-
-for (let i = 0; i < ligne; i++) {
-  document.write(caractere + "<br />");
+for (let i = 0; i < rows; i++) {
+  for (let j = 0; j <= i; j++) {
+    document.write(caract);
+  }
+  document.write("<br/>");
 }
