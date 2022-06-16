@@ -1,0 +1,23 @@
+
+1)
+SELECT * from client WHERE prenom='Muriel' and password=sha1('test11');
+
+2)
+SELECT nom,COUNT(*) AS nombre_produit FROM commande_ligne GROUP BY nom HAVING nombre_produit > 1 ORDER BY nombre_produit DESC
+
+3)
+SELECT nom,COUNT(*) AS nombre_produit, GROUP_CONCAT(commande_id) AS numero_commande FROM commande_ligne GROUP BY nom HAVING nombre_produit > 1 ORDER BY nombre_produit DESC;
+
+4)
+UPDATE commande_ligne
+SET prix_total = prix_unitaire*quantite
+
+5)
+SELECT client.prenom, client.nom, commande.date_achat, commande_id, SUM(prix_total) AS commande_prix FROM commande_ligne LEFT JOIN commande ON commande.id = commande_ligne.commande_id LEFT JOIN client ON client.id = commande.client_id GROUP BY commande_id;
+
+6)
+UPDATE commande AS jsp
+INNER JOIN (SELECT commande_id, SUM(commande_ligne.prix_total) AS total_prix FROM commande_ligne
+            GROUP BY commande_id) jsp2
+            ON jsp.id = jsp2.commande_id
+SET jsp.cache_prix_total = jsp2.total_prix
